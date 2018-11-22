@@ -1,0 +1,52 @@
+public
+
+    presently Using ../public/grid.css for Grid Layout, was using reactstrap - a bootstrap module, but project size became larger and code structure not to cool. Some other pages still using reactstap, if you feel you like it, you can leave it. 
+
+    ../public/grid.css - xs,sm,md,lg,xlg
+
+    animate.css for quick css animations.
+
+App Components
+
+    - Navbar 
+        *check ./pages/Delivery for exmaple with bgcolor
+        *check ./pages/Home/header for exmaple without bgcolor
+
+    - Footer
+        *check ./pages/Home for exmaple 
+
+    - Button - Some pages still need to implement this in replace of the default button - check ./pages/Home/component/header for example.
+
+    - Input - Some pages still need to implement this in replace of the default input - check ./pages/Delivery/component/info/parcel for example.
+
+Routes
+
+    New Pages are Mounted/Loaded in ./Routes
+
+    ./App.js has the routes stucture based on authentication (user logged in or not)
+
+Default styles 
+
+    index.css
+
+    Using styled-component for individual component/pages style - check pages component for examples
+
+Pages 
+
+    Auth - Please check this for fixing update /login /signup, (Change isAuth in App.js & pages/Home to false to see this pages)
+
+    Dashboard - Dashboard done initial but will need update,
+
+    Delivery also immediate Delivery,
+
+    Home,
+
+    ScheduleDelivery
+
+    Tracking
+
+Store/API implementation
+
+    Presently tested the Immediate Delivery/Schedule Delivery inline with the page using Axios for request
+
+    Best used is redux 
